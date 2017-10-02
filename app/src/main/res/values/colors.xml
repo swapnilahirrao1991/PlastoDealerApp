@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f28933</color>
+    <color name="colorPrimaryDark">#C77532</color>
+
+    <color name="hint_text">#f28933</color>
+    <color name="colorAccent">#f7C77532</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+
+    <color name="black_overlay">#757575</color>
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+    <color name="transparent" >#b5f28933</color>
+</resources>

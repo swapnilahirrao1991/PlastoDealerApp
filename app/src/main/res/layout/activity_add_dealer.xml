@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="com.plasto.dealerapp.activity.AddDealerActivity">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editviewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="*Name"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<MaterialSpinner
+            android:id="@+id/spinner_state"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:ms_alignLabels="false"
+            app:ms_arrowColor="@color/primary_text"
+            app:ms_arrowSize="16dp"
+            app:ms_baseColor="@color/primary_text"
+            app:ms_enableErrorLabel="false"
+            app:ms_enableFloatingLabel="false"
+            app:ms_errorColor="@color/error_color"
+            app:ms_floatingLabelColor="@color/primary_text"
+            app:ms_floatingLabelText="floating label"
+            app:ms_highlightColor="@color/primary_text"
+            app:ms_hint="Select State"
+            app:ms_hintColor="@color/primary_text"
+            app:ms_multiline="false"
+            app:ms_thickness="1dp" />-->
+
+        <!-- <MaterialSpinner
+             android:id="@+id/spinner"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             app:ms_alignLabels="false"
+             app:ms_arrowColor="@color/primary_text"
+             app:ms_arrowSize="16dp"
+             app:ms_baseColor="@color/primary_text"
+             app:ms_enableErrorLabel="false"
+             app:ms_enableFloatingLabel="false"
+             app:ms_errorColor="@color/error_color"
+             app:ms_floatingLabelColor="@color/primary_text"
+             app:ms_floatingLabelText="floating label"
+             app:ms_highlightColor="@color/primary_text"
+             app:ms_hint="Select City"
+             app:ms_hintColor="@color/primary_text"
+             app:ms_multiline="false"
+             app:ms_thickness="1dp" />-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editviewMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="*Mobile"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editviewMobileOtherOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Other Mobile one"
+
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+
+                android:id="@+id/editviewMobileOtherTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Other Mobile two"
+
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editviewMobileOtherThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Other Mobile three"
+
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editviewMobileOtherFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Landline No."
+                android:inputType="phone"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="*Address"
+                android:inputType="text"
+                android:maxLength="40"
+                android:maxLines="3"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Select State"
+            android:textColor="@color/colorAccent" />
+
+        <Spinner
+            android:id="@+id/spinner_state"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dialog"
+
+            ></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Select City"
+            android:textColor="@color/colorAccent" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dialog"
+
+            ></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Select Tashil"
+            android:textColor="@color/colorAccent" />
+
+        <Spinner
+            android:id="@+id/spinner_tashil"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dialog"
+
+            ></Spinner>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Area"
+                android:inputType="text"
+                android:maxLength="40"
+                android:maxLines="3"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Select Category"
+            android:textColor="@color/colorAccent" />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dialog"></Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Select Sub Category"
+            android:textColor="@color/colorAccent" />
+
+        <Spinner
+            android:id="@+id/spinner_subCategory"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dialog"
+
+            ></Spinner>
+
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>

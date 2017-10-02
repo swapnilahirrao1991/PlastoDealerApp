@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addDealer"
+            android:icon="@drawable/ic_add_dealer"
+            android:title="@string/addDealer" />
+        <item
+            android:id="@+id/nav_dayEndReport"
+            android:icon="@drawable/ic_day_end_report"
+            android:title="@string/dayEndReport" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_my_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_changePassword"
+            android:icon="@drawable/ic_change_pw"
+            android:title="@string/changePassword"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+
+    </group>
+
+
+</menu>

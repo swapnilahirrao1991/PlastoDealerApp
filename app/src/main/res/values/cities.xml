@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+
+        <item>Ahmedabad</item>
+
+
+        <item>Aurangabad</item>
+
+        <item>Hyderabad</item>
+
+        <item>Nahsik</item>
+        <item>Nagpur</item>
+
+
+    </string-array>
+
+    <string-array name="tahsil">
+
+        <item>Bhiwapur</item>
+
+
+        <item>Kalameshwar</item>
+
+        <item>Nagpur Urban</item>
+
+        <item>Parseoni</item>
+        <item>Ramtek</item>
+
+
+    </string-array>
+    <string-array name="area">
+
+        <item>Bhiwapur</item>
+
+        <item>Bellarpar</item>
+
+        <item>Besur</item>
+
+        <item>Bhagebori</item>
+
+        <item>Bhagwanpur</item>
+
+        <item>Bhivi</item>
+
+        <item>Bhiwapur</item>
+
+        <item>Bhowari</item>
+
+        <item>Bhumkotargata</item>
+
+        <item>Bopeshwar</item>
+
+        <item>Bordkala</item>
+
+        <item>Bordkhurd</item>
+
+        <item>Borgaon</item>
+
+        <item>Botezari</item>
+
+        <item>Chargaon</item>
+
+        <item>Chichala</item>
+
+        <item>Chikhalapar</item>
+
+        <item>Chikhali</item>
+
+        <item>Chorvihara</item>
+
+        <item>Dhamangaon</item>
+
+
+    </string-array>
+</resources>
